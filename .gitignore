@@ -1,0 +1,10 @@
+# Ignorar archivos de Word y PDF
+*.docx
+*.pdf
+
+# Ignorar archivos temporales de Python
+__pycache__/
+
+# Ignorar carpeta de prácticas personales
+Prácticas/
+
