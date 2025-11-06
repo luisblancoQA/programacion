@@ -1,10 +1,15 @@
-# Conversiones de tipos
-edad = "46"
-edad_numero = int(edad)   #de texto a número
+# Tipos de datos básicos
+numero_entero = 46
+numero_decimal = 1.75
+nombre = "Luis"
+es_estudiante = True
 
-altura = 1.75
-altura_texto = str(altura)    #de número a texto
-
-print(edad_numero + 4)     #ahora sí podemos sumar
-print("Tu altura es " + altura_texto)
-
+# Mostrar valores y tipos
+print("Número Entero:", numero_entero)
+type(numero_entero)
+print("Número Decimal:", numero_decimal)
+type(numero_decimal)
+print("Nombre:", nombre)
+type(nombre)
+print("¿Es Estudiante?", es_estudiante)
+type(es_estudiante)
