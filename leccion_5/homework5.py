@@ -18,7 +18,14 @@ print(x <= y)
 edad = 25
 tiene_licencia = False
 
-print("❌")
+print(edad >= 18 and tiene_licencia)
+
+# 4. Extra (Opcional)
+palabra = "python"
+print("p" in palabra)
+print("z" not in palabra)
+
+
 
 
 
